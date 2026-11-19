@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    // з тернарним
+    /*
+    int A;
+    cout << "A = ";
+    cin >> A;
+    ((A % 2 == 0) || ((A / 10) <= 0)) ? printf("true") : printf("false");
+    */
+
+    // без тернарного
+    /*
+    int A;
+    cout << "A = ";
+    cin >> A;
+    cout << boolalpha << ((A % 2 == 0) || ((A / 10) <= 0)) << endl;
+    */
+}
